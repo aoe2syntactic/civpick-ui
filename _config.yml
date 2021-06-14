@@ -3,4 +3,5 @@ theme: jekyll-theme-slate
 title: "Unique AoE2 Civ Drafts"
 description: "Replacing pictures on aoe2cm.net"
 
-show_downloads: "false"
+github:
+  repository_url: https://gist.github.com/mbergen/556b7b2618165fba69abc90f66540a4f
