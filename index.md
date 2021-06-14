@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome to the Civpick-UI-Project
+Created to enjoy an unique look of [civilization drafts](aoe2cm.net) on [Nili's](twitch.tv/nili_aoe) streams.
 
-You can use the [editor on GitHub](https://github.com/aoe2syntactic/civpick-ui/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Drawings were made and owned by [AgniousPrime](twitch.tv/agniousprime).
+Code was written by SyntacticSalt (or SyntacticSugar, who knows).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Installation Instructions and Requirements
+ Currently, only Chrome/Chromium is tested and supported.
+Firefox might work as well.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aoe2syntactic/civpick-ui/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. Install [Tampermonkey](https://www.tampermonkey.net/), a browser addon to support userscripts.
+2. On this site, click on [Install]() or the install button at the top.
+3. Accept installation when asked by Tampermonkey.
+4. You are done! Enjoy a hippo-themed civ draft.
