@@ -1,8 +1,16 @@
+<style>
+ img { width: 100%; }
+</style>
+
 ## Welcome to the Civpick-UI-Project
-Created to enjoy an unique look of [civilization drafts](aoe2cm.net) on [Nili's](https://twitch.tv/nili_aoe) streams.
+Created to enjoy an unique look of [civilization drafts](https://aoe2cm.net) on [Nili's](https://twitch.tv/nili_aoe) streams.
+
+| ![The Draft](assets/images/draft.png) |
+|:--:|
+| How a draft could look like |
 
 Drawings were made and owned by [AgniousPrime](https://twitch.tv/agniousprime).
-Code was written by SyntacticSalt (or SyntacticSugar, who knows).
+Code was written by SyntacticSalt (or SyntacticSugar, who knows -- contact on discord SyntacticSugar#1829).
 
 ## Installation Instructions and Requirements
  Currently, only Chrome/Chromium is tested and supported.
