@@ -1,4 +1,5 @@
 from urllib.parse import quote
+from textwrap import dedent
 
 url_prefix = 'https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/'
 
@@ -43,7 +44,54 @@ mapping = {
 };
 
 
-full_css = ""
+full_css = dedent("""\
+            body {
+                background-color: rgba(0, 0, 0, 0);
+                margin: 0px auto;
+                overflow: hidden;
+            }
+
+            .pick,
+            .steal {
+                height: 138px;
+            }
+
+            .ban {
+                height: 138px;
+                width: 112px;
+            }
+
+            .ban img,
+            .pick img,
+            .steal img {
+                background: black;
+            }
+
+            div.stretchy-wrapper {
+                padding-bottom: 127.5%;
+            }
+
+            div.stretchy-wrapper>div.stretchy-text {
+                background: rgba(0, 0, 0, 0.5);
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 1.25;
+            }
+
+            div.stretchy-wrapper>div.stretchy-text {
+                text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black;
+            }
+
+            .choice>div>div.stretchy-wrapper {
+                padding-bottom: 126%;
+            }
+
+            .choice>div>div.stretchy-wrapper>div.stretchy-text {
+                font-size: 12px;
+                padding-top: 0;
+            }
+
+            """)
 
 prefix = "img"
 guest_prefix = "#player-guest > .player"
@@ -54,15 +102,18 @@ for key, value in mapping.items():
     blue = quote(value[0] + ".png")
     red = quote(value[1] + ".png")
 
-    host = f"{host_prefix} {prefix}[alt~=\"{key.capitalize()}\"]"
-    host += f"{{content: url(\"{url_prefix+blue}\")}}"
-    
-    guest = f"{guest_prefix} {prefix}[alt~=\"{key.capitalize()}\"]"
-    guest += f"{{content: url(\"{url_prefix+red}\")}}"
-
-    grid = f"{grid_prefix} {prefix}[alt~=\"{key.capitalize()}\"]"
-    grid += f"{{content: url(\"{url_prefix+blue}\")}}"
-
-    full_css += host + "\n" + guest + "\n" + grid
+    full_css += dedent(f"""\
+                {host_prefix} {prefix}[alt~=\"{key.capitalize()}\"]
+                {{
+                    content: url(\"{url_prefix+blue}\")
+                }}
+                {guest_prefix} {prefix}[alt~=\"{key.capitalize()}\"]
+                {{
+                    content: url(\"{url_prefix+red}\")
+                }}
+                {grid_prefix} {prefix}[alt~=\"{key.capitalize()}\"]
+                {{
+                    content: url(\"{url_prefix+blue}\")
+                }}""")
 
 print(full_css)
