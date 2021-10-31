@@ -28,7 +28,6 @@ div.stretchy-wrapper>div.stretchy-text {
     background: rgba(0, 0, 0, 0.5);
     font-size: 18px;
     font-weight: 500;
-    padding 0 0;
     line-height: 1.25;
 }
 
@@ -45,446 +44,433 @@ div.stretchy-wrapper>div.stretchy-text {
     padding-top: 0;
 }
 
-#player-host>.player img[alt~="Aztecs"] {
+#player-host > .player img[alt~="Aztecs"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliJaguar%20B.png")
 }
-
-#player-guest>.player img[alt~="Aztecs"] {
+#player-guest > .player img[alt~="Aztecs"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliJaguar%20R.png")
 }
-
-#civgrid img[alt~="Aztecs"] {
+#civgrid img[alt~="Aztecs"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliJaguar%20B.png")
-}
-
-#player-host>.player img[alt~="Berbers"] {
+}#player-host > .player img[alt~="Berbers"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliCamelArcher%20B.png")
 }
-
-#player-guest>.player img[alt~="Berbers"] {
+#player-guest > .player img[alt~="Berbers"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliCamelArcher%20R.png")
 }
-
-#civgrid img[alt~="Berbers"] {
+#civgrid img[alt~="Berbers"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliCamelArcher%20B.png")
-}
-
-#player-host>.player img[alt~="Britons"] {
+}#player-host > .player img[alt~="Britons"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/nililongbow%20B.png")
 }
-
-#player-guest>.player img[alt~="Britons"] {
+#player-guest > .player img[alt~="Britons"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/nililongbow%20R.png")
 }
-
-#civgrid img[alt~="Britons"] {
+#civgrid img[alt~="Britons"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/nililongbow%20B.png")
+}#player-host > .player img[alt~="Bohemians"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliBohemians%20B.png")
 }
-
-#player-host>.player img[alt~="Bulgarians"] {
+#player-guest > .player img[alt~="Bohemians"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliBohemians%20R.png")
+}
+#civgrid img[alt~="Bohemians"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliBohemians%20B.png")
+}#player-host > .player img[alt~="Bulgarians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKonnik%20B.png")
 }
-
-#player-guest>.player img[alt~="Bulgarians"] {
+#player-guest > .player img[alt~="Bulgarians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKonnik%20R.png")
 }
-
-#civgrid img[alt~="Bulgarians"] {
+#civgrid img[alt~="Bulgarians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKonnik%20B.png")
-}
-
-#player-host>.player img[alt~="Burgundians"] {
+}#player-host > .player img[alt~="Burgundians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliCoustie%20B.png")
 }
-
-#player-guest>.player img[alt~="Burgundians"] {
+#player-guest > .player img[alt~="Burgundians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliCoustie%20R.png")
 }
-
-#civgrid img[alt~="Burgundians"] {
+#civgrid img[alt~="Burgundians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliCoustie%20B.png")
-}
-
-#player-host>.player img[alt~="Burmese"] {
+}#player-host > .player img[alt~="Burmese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliArambai%20B.png")
 }
-
-#player-guest>.player img[alt~="Burmese"] {
+#player-guest > .player img[alt~="Burmese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliArambai%20R.png")
 }
-
-#civgrid img[alt~="Burmese"] {
+#civgrid img[alt~="Burmese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliArambai%20B.png")
-}
-
-#player-host>.player img[alt~="Byzantines"] {
+}#player-host > .player img[alt~="Byzantines"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliCata%20v3%20B.png")
 }
-
-#player-guest>.player img[alt~="Byzantines"] {
+#player-guest > .player img[alt~="Byzantines"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliCata%20v3%20R.png")
 }
-
-#civgrid img[alt~="Byzantines"] {
+#civgrid img[alt~="Byzantines"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliCata%20v3%20B.png")
-}
-
-#player-host>.player img[alt~="Celts"] {
+}#player-host > .player img[alt~="Celts"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliWoad%20B.png")
 }
-
-#player-guest>.player img[alt~="Celts"] {
+#player-guest > .player img[alt~="Celts"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliWoad%20R.png")
 }
-
-#civgrid img[alt~="Celts"] {
+#civgrid img[alt~="Celts"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliWoad%20B.png")
-}
-
-#player-host>.player img[alt~="Chinese"] {
+}#player-host > .player img[alt~="Chinese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliChuKoNu%20B.png")
 }
-
-#player-guest>.player img[alt~="Chinese"] {
+#player-guest > .player img[alt~="Chinese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliChuKoNu%20R.png")
 }
-
-#civgrid img[alt~="Chinese"] {
+#civgrid img[alt~="Chinese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliChuKoNu%20B.png")
-}
-
-#player-host>.player img[alt~="Cumans"] {
+}#player-host > .player img[alt~="Cumans"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKipchak%20B.png")
 }
-
-#player-guest>.player img[alt~="Cumans"] {
+#player-guest > .player img[alt~="Cumans"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKipchak%20R.png")
 }
-
-#civgrid img[alt~="Cumans"] {
+#civgrid img[alt~="Cumans"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKipchak%20B.png")
-}
-
-#player-host>.player img[alt~="Ethiopians"] {
+}#player-host > .player img[alt~="Ethiopians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliShotel%20B.png")
 }
-
-#player-guest>.player img[alt~="Ethiopians"] {
+#player-guest > .player img[alt~="Ethiopians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliShotel%20R.png")
 }
-
-#civgrid img[alt~="Ethiopians"] {
+#civgrid img[alt~="Ethiopians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliShotel%20B.png")
-}
-
-#player-host>.player img[alt~="Franks"] {
+}#player-host > .player img[alt~="Franks"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliAxeman%20B.png")
 }
-
-#player-guest>.player img[alt~="Franks"] {
+#player-guest > .player img[alt~="Franks"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliAxeman%20R.png")
 }
-
-#civgrid img[alt~="Franks"] {
+#civgrid img[alt~="Franks"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliAxeman%20B.png")
-}
-
-#player-host>.player img[alt~="Goths"] {
+}#player-host > .player img[alt~="Goths"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliHuskarl2%20B.png")
 }
-
-#player-guest>.player img[alt~="Goths"] {
+#player-guest > .player img[alt~="Goths"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliHuskarl2%20R.png")
 }
-
-#civgrid img[alt~="Goths"] {
+#civgrid img[alt~="Goths"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliHuskarl2%20B.png")
-}
-
-#player-host>.player img[alt~="Huns"] {
+}#player-host > .player img[alt~="Huns"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliTarkan%20B.png")
 }
-
-#player-guest>.player img[alt~="Huns"] {
+#player-guest > .player img[alt~="Huns"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliTarkan%20R.png")
 }
-
-#civgrid img[alt~="Huns"] {
+#civgrid img[alt~="Huns"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliTarkan%20B.png")
-}
-
-#player-host>.player img[alt~="Incas"] {
+}#player-host > .player img[alt~="Incas"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKamayuk%20B.png")
 }
-
-#player-guest>.player img[alt~="Incas"] {
+#player-guest > .player img[alt~="Incas"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKamayuk%20R.png")
 }
-
-#civgrid img[alt~="Incas"] {
+#civgrid img[alt~="Incas"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKamayuk%20B.png")
-}
-
-#player-host>.player img[alt~="Indians"] {
+}#player-host > .player img[alt~="Indians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliEleArch%20B.png")
 }
-
-#player-guest>.player img[alt~="Indians"] {
+#player-guest > .player img[alt~="Indians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliEleArch%20R.png")
 }
-
-#civgrid img[alt~="Indians"] {
+#civgrid img[alt~="Indians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliEleArch%20B.png")
-}
-
-#player-host>.player img[alt~="Italians"] {
+}#player-host > .player img[alt~="Italians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliGenoese%20XBow%20B.png")
 }
-
-#player-guest>.player img[alt~="Italians"] {
+#player-guest > .player img[alt~="Italians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliGenoese%20XBow%20R.png")
 }
-
-#civgrid img[alt~="Italians"] {
+#civgrid img[alt~="Italians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliGenoese%20XBow%20B.png")
-}
-
-#player-host>.player img[alt~="Japanese"] {
+}#player-host > .player img[alt~="Japanese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliSamurai%20B.png")
 }
-
-#player-guest>.player img[alt~="Japanese"] {
+#player-guest > .player img[alt~="Japanese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliSamurai%20R.png")
 }
-
-#civgrid img[alt~="Japanese"] {
+#civgrid img[alt~="Japanese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliSamurai%20B.png")
-}
-
-#player-host>.player img[alt~="Khmer"] {
+}#player-host > .player img[alt~="Khmer"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliBallerEle%20B.png")
 }
-
-#player-guest>.player img[alt~="Khmer"] {
+#player-guest > .player img[alt~="Khmer"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliBallerEle%20R.png")
 }
-
-#civgrid img[alt~="Khmer"] {
+#civgrid img[alt~="Khmer"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliBallerEle%20B.png")
-}
-
-#player-host>.player img[alt~="Koreans"] {
+}#player-host > .player img[alt~="Koreans"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliHippoShip%20B.png")
 }
-
-#player-guest>.player img[alt~="Koreans"] {
+#player-guest > .player img[alt~="Koreans"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliHippoShip%20R.png")
 }
-
-#civgrid img[alt~="Koreans"] {
+#civgrid img[alt~="Koreans"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliHippoShip%20B.png")
-}
-
-#player-host>.player img[alt~="Lithuanians"] {
+}#player-host > .player img[alt~="Lithuanians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliLeitis%20B.png")
 }
-
-#player-guest>.player img[alt~="Lithuanians"] {
+#player-guest > .player img[alt~="Lithuanians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliLeitis%20R.png")
 }
-
-#civgrid img[alt~="Lithuanians"] {
+#civgrid img[alt~="Lithuanians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliLeitis%20B.png")
-}
-
-#player-host>.player img[alt~="Magyars"] {
+}#player-host > .player img[alt~="Magyars"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliMH%20B.png")
 }
-
-#player-guest>.player img[alt~="Magyars"] {
+#player-guest > .player img[alt~="Magyars"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliMH%20R.png")
 }
-
-#civgrid img[alt~="Magyars"] {
+#civgrid img[alt~="Magyars"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliMH%20B.png")
-}
-
-#player-host>.player img[alt~="Malay"] {
+}#player-host > .player img[alt~="Malay"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKarambit%20B.png")
 }
-
-#player-guest>.player img[alt~="Malay"] {
+#player-guest > .player img[alt~="Malay"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKarambit%20R.png")
 }
-
-#civgrid img[alt~="Malay"] {
+#civgrid img[alt~="Malay"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKarambit%20B.png")
-}
-
-#player-host>.player img[alt~="Malians"] {
+}#player-host > .player img[alt~="Malians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliGbeto%20B.png")
 }
-
-#player-guest>.player img[alt~="Malians"] {
+#player-guest > .player img[alt~="Malians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliGbeto%20R.png")
 }
-
-#civgrid img[alt~="Malians"] {
+#civgrid img[alt~="Malians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliGbeto%20B.png")
-}
-
-#player-host>.player img[alt~="Mayans"] {
+}#player-host > .player img[alt~="Mayans"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliPlume%20B.png")
 }
-
-#player-guest>.player img[alt~="Mayans"] {
+#player-guest > .player img[alt~="Mayans"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliPlume%20R.png")
 }
-
-#civgrid img[alt~="Mayans"] {
+#civgrid img[alt~="Mayans"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliPlume%20B.png")
-}
-
-#player-host>.player img[alt~="Mongols"] {
+}#player-host > .player img[alt~="Mongols"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliMangudai%20B.png")
 }
-
-#player-guest>.player img[alt~="Mongols"] {
+#player-guest > .player img[alt~="Mongols"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliMangudai%20R.png")
 }
-
-#civgrid img[alt~="Mongols"] {
+#civgrid img[alt~="Mongols"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliMangudai%20B.png")
-}
-
-#player-host>.player img[alt~="Persians"] {
+}#player-host > .player img[alt~="Persians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliWarEle%20B.png")
 }
-
-#player-guest>.player img[alt~="Persians"] {
+#player-guest > .player img[alt~="Persians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliWarEle%20R.png")
 }
-
-#civgrid img[alt~="Persians"] {
+#civgrid img[alt~="Persians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliWarEle%20B.png")
+}#player-host > .player img[alt~="Poles"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliObuch%20B.png")
 }
-
-#player-host>.player img[alt~="Portuguese"] {
+#player-guest > .player img[alt~="Poles"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliObuch%20R.png")
+}
+#civgrid img[alt~="Poles"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliObuch%20B.png")
+}#player-host > .player img[alt~="Portuguese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliOrganGun%20B.png")
 }
-
-#player-guest>.player img[alt~="Portuguese"] {
+#player-guest > .player img[alt~="Portuguese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliOrganGun%20R.png")
 }
-
-#civgrid img[alt~="Portuguese"] {
+#civgrid img[alt~="Portuguese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliOrganGun%20B.png")
-}
-
-#player-host>.player img[alt~="Saracens"] {
+}#player-host > .player img[alt~="Saracens"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliMameluke%20B.png")
 }
-
-#player-guest>.player img[alt~="Saracens"] {
+#player-guest > .player img[alt~="Saracens"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliMameluke%20R.png")
 }
-
-#civgrid img[alt~="Saracens"] {
+#civgrid img[alt~="Saracens"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliMameluke%20B.png")
-}
-
-#player-host>.player img[alt~="Sicilians"] {
+}#player-host > .player img[alt~="Sicilians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliserjeant%20Bv2.png")
 }
-
-#player-guest>.player img[alt~="Sicilians"] {
+#player-guest > .player img[alt~="Sicilians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliserjeant%20Rv2.png")
 }
-
-#civgrid img[alt~="Sicilians"] {
+#civgrid img[alt~="Sicilians"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliserjeant%20Bv2.png")
-}
-
-#player-host>.player img[alt~="Slavs"] {
+}#player-host > .player img[alt~="Slavs"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliBoyar%20B.png")
 }
-
-#player-guest>.player img[alt~="Slavs"] {
+#player-guest > .player img[alt~="Slavs"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliBoyar%20R.png")
 }
-
-#civgrid img[alt~="Slavs"] {
+#civgrid img[alt~="Slavs"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliBoyar%20B.png")
-}
-
-#player-host>.player img[alt~="Spanish"] {
+}#player-host > .player img[alt~="Spanish"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliConq%20B.png")
 }
-
-#player-guest>.player img[alt~="Spanish"] {
+#player-guest > .player img[alt~="Spanish"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliConq%20R.png")
 }
-
-#civgrid img[alt~="Spanish"] {
+#civgrid img[alt~="Spanish"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliConq%20B.png")
-}
-
-#player-host>.player img[alt~="Tatars"] {
+}#player-host > .player img[alt~="Tatars"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliFlamingCamel%20B.png")
 }
-
-#player-guest>.player img[alt~="Tatars"] {
+#player-guest > .player img[alt~="Tatars"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliFlamingCamel%20R.png")
 }
-
-#civgrid img[alt~="Tatars"] {
+#civgrid img[alt~="Tatars"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliFlamingCamel%20B.png")
-}
-
-#player-host>.player img[alt~="Teutons"] {
+}#player-host > .player img[alt~="Teutons"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliTeuto2%20B.png")
 }
-
-#player-guest>.player img[alt~="Teutons"] {
+#player-guest > .player img[alt~="Teutons"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliTeuto2%20R.png")
 }
-
-#civgrid img[alt~="Teutons"] {
+#civgrid img[alt~="Teutons"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliTeuto2%20B.png")
-}
-
-#player-host>.player img[alt~="Turks"] {
+}#player-host > .player img[alt~="Turks"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliJanissary%20B.png")
 }
-
-#player-guest>.player img[alt~="Turks"] {
+#player-guest > .player img[alt~="Turks"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliJanissary%20R.png")
 }
-
-#civgrid img[alt~="Turks"] {
+#civgrid img[alt~="Turks"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliJanissary%20B.png")
-}
-
-#player-host>.player img[alt~="Vietnamese"] {
+}#player-host > .player img[alt~="Vietnamese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliRattan%20B.png")
 }
-
-#player-guest>.player img[alt~="Vietnamese"] {
+#player-guest > .player img[alt~="Vietnamese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliRattan%20R.png")
 }
-
-#civgrid img[alt~="Vietnamese"] {
+#civgrid img[alt~="Vietnamese"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliRattan%20B.png")
-}
-
-#player-host>.player img[alt~="Vikings"] {
+}#player-host > .player img[alt~="Vikings"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliBerserk%20B%20v2.png")
 }
-
-#player-guest>.player img[alt~="Vikings"] {
+#player-guest > .player img[alt~="Vikings"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliBerserk%20R%20v2.png")
 }
-
-#civgrid img[alt~="Vikings"] {
+#civgrid img[alt~="Vikings"]
+{
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliBerserk%20B%20v2.png")
 }
