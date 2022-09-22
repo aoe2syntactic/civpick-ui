@@ -9,6 +9,6 @@ Code was written by SyntacticSalt (or SyntacticSugar, who knows).
 Firefox might work as well.
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/), a browser addon to support userscripts.
-2. [Install the script]().
+2. [Click here to install the script](https://gist.github.com/mbergen/556b7b2618165fba69abc90f66540a4f/raw/aoe2cm_civ_replacement_TM.user.js).
 3. Accept installation when asked by Tampermonkey.
 4. You are done! Enjoy a hippo-themed civ draft.
