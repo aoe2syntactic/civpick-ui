@@ -92,7 +92,6 @@ full_css = dedent("""\
                 font-size: 12px;
                 padding-top: 0;
             }
-
             """)
 
 prefix = "img"
@@ -104,7 +103,7 @@ for key, value in mapping.items():
     blue = quote(value[0] + ".png")
     red = quote(value[1] + ".png")
 
-    full_css += dedent(f"""\
+    full_css += dedent(f"""
                 {host_prefix} {prefix}[alt~=\"{key.capitalize()}\"]
                 {{
                     content: url(\"{url_prefix+blue}\")
