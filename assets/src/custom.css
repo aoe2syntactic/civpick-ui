@@ -176,6 +176,18 @@ div.stretchy-wrapper>div.stretchy-text {
 {
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKipchak%20B.png")
 }
+#player-host > .player img[alt~="Dravidians"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliUrumi%20B.png")
+}
+#player-guest > .player img[alt~="Dravidians"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliUrumi%20R.png")
+}
+#civgrid img[alt~="Dravidians"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliUrumi%20B.png")
+}
 #player-host > .player img[alt~="Ethiopians"]
 {
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliShotel%20B.png")
@@ -211,6 +223,18 @@ div.stretchy-wrapper>div.stretchy-text {
 #civgrid img[alt~="Goths"]
 {
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliHuskarl2%20B.png")
+}
+#player-host > .player img[alt~="Hindustanis"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliGhulam%20B.png")
+}
+#player-guest > .player img[alt~="Hindustanis"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliGhulam%20R.png")
+}
+#civgrid img[alt~="Hindustanis"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliGhulam%20B.png")
 }
 #player-host > .player img[alt~="Huns"]
 {
