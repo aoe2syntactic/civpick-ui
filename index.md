@@ -30,7 +30,7 @@ Code was written by SyntacticSalt (or SyntacticSugar, who knows -- contact on di
 Firefox might work as well.
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/), a browser addon to support userscripts.
-2. [Click here to install the script](https://gist.github.com/mbergen/556b7b2618165fba69abc90f66540a4f/raw/aoe2cm_civ_replacement_TM.user.js).
+2. [Click here to install the script](https://gist.github.com/mbergen/556b7b2618165fba69abc90f66540a4f/raw/82abe3191eb647502965c47f6429ba990f523629/aoe2cm_civ_replacement_TM.user.js).
 3. Accept installation when asked by Tampermonkey.
 4. You are done! Enjoy a hippo-themed civ draft.
 
@@ -217,6 +217,18 @@ div.stretchy-wrapper>div.stretchy-text {
 {
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliKipchak%20B.png")
 }
+#player-host > .player img[alt~="Dravidians"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliUrumi%20B.png")
+}
+#player-guest > .player img[alt~="Dravidians"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliUrumi%20R.png")
+}
+#civgrid img[alt~="Dravidians"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliUrumi%20B.png")
+}
 #player-host > .player img[alt~="Ethiopians"]
 {
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliShotel%20B.png")
@@ -252,6 +264,18 @@ div.stretchy-wrapper>div.stretchy-text {
 #civgrid img[alt~="Goths"]
 {
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliHuskarl2%20B.png")
+}
+#player-host > .player img[alt~="Hindustanis"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliGhulam%20B.png")
+}
+#player-guest > .player img[alt~="Hindustanis"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliGhulam%20R.png")
+}
+#civgrid img[alt~="Hindustanis"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliGhulam%20B.png")
 }
 #player-host > .player img[alt~="Huns"]
 {
