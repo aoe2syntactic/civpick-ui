@@ -19,6 +19,7 @@ mapping = {
     'ethiopians': ['niliShotel B', 'niliShotel R'],
     'franks': ['niliAxeman B', 'niliAxeman R'],
     'goths': ['niliHuskarl2 B', 'niliHuskarl2 R'],
+    'gurjaras': ['niliChakram B', 'niliChakram R'],
     'hindustanis': ['niliGhulam B', 'niliGhulam R'],
     'huns': ['niliTarkan B', 'niliTarkan R'],
     'incas': ['niliKamayuk B', 'niliKamayuk R'],
