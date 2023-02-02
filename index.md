@@ -265,6 +265,18 @@ div.stretchy-wrapper>div.stretchy-text {
 {
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliHuskarl2%20B.png")
 }
+#player-host > .player img[alt~="Gurjaras"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliChakram%20B.png")
+}
+#player-guest > .player img[alt~="Gurjaras"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliChakram%20R.png")
+}
+#civgrid img[alt~="Gurjaras"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliChakram%20B.png")
+}
 #player-host > .player img[alt~="Hindustanis"]
 {
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliGhulam%20B.png")
