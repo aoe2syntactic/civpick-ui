@@ -51,10 +51,18 @@ mapping = {
 
 
 full_css = dedent("""\
-            body {
-                background-color: rgba(0, 0, 0, 0);
+            body, html, footer.footer {
+                background-color: rgba(0, 0, 0, 0) !important;
                 margin: 0px auto;
                 overflow: hidden;
+            }
+
+            .header-navigation, #root > nav, #draft-id-info {
+                display: none !important;
+            }
+
+            .box {
+                background-color: transparent !important;
             }
 
             .pick,
@@ -70,7 +78,7 @@ full_css = dedent("""\
             .ban img,
             .pick img,
             .steal img {
-                background: black;
+                background: transparent;
             }
 
             div.stretchy-wrapper {
@@ -108,17 +116,12 @@ for key, value in mapping.items():
     red = quote(value[1] + ".png")
 
     full_css += dedent(f"""
-                {host_prefix} {prefix}[alt~=\"{key.capitalize()}\"]
-                {{
-                    content: url(\"{url_prefix+blue}\")
-                }}
-                {guest_prefix} {prefix}[alt~=\"{key.capitalize()}\"]
-                {{
-                    content: url(\"{url_prefix+red}\")
-                }}
+                {host_prefix} {prefix}[alt~=\"{key.capitalize()}\"],
+                {guest_prefix} {prefix}[alt~=\"{key.capitalize()}\"],
                 {grid_prefix} {prefix}[alt~=\"{key.capitalize()}\"]
                 {{
                     content: url(\"{url_prefix+blue}\")
-                }}""")
+                }}
+                """)
 
 print(full_css)
