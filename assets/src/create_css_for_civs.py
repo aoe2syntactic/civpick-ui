@@ -121,7 +121,7 @@ for key, value in mapping.items():
                 {{
                     content: url(\"{url_prefix+blue}\")
                 }}
-                {guest_prefix} {prefix}[alt~=\"{key.capitalize()}\"],
+                {guest_prefix} {prefix}[alt~=\"{key.capitalize()}\"]
                 {{
                     content: url(\"{url_prefix+red}\")
                 }}
