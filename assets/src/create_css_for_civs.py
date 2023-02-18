@@ -6,7 +6,7 @@ url_prefix = 'https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/'
 mapping = {
     'aztecs': ['niliJaguar B', 'niliJaguar R'],
     'berbers': ['niliCamelArcher B', 'niliCamelArcher R'],
-    'bengalis': ['niliCamelRatha B', 'niliRatha R'],
+    'bengalis': ['niliRatha B', 'niliRatha R'],
     'britons': ['nililongbow B', 'nililongbow R'],
     'bohemians': ['niliBohemians B', 'niliBohemians R'],
     'bulgarians': ['niliKonnik B', 'niliKonnik R'],
