@@ -38,6 +38,7 @@ mapping = {
     'persians': ['niliWarEle B', 'niliWarEle R'],
     'poles': ['niliObuch B', 'niliObuch R'],
     'portuguese': ['niliOrganGun B', 'niliOrganGun R'],
+    'romans': ['niliCenturion B', 'niliCenturion R'],
     'saracens': ['niliMameluke B', 'niliMameluke R'],
     'sicilians': ['niliserjeant Bv2', 'niliserjeant Rv2'],
     'slavs': ['niliBoyar B', 'niliBoyar R'],

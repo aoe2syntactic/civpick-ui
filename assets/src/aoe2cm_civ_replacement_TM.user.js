@@ -56,6 +56,7 @@ let mapping = {
     'persians.png': ['niliWarEle B.png', 'niliWarEle R.png'],
     'poles.png': ['niliObuch B.png', 'niliObuch R.png'],
     'portuguese.png': ['niliOrganGun B.png', 'niliOrganGun R.png'],
+    'romans.png': ['niliCenturion B.png', 'niliCenturion R.png'],
     'saracens.png': ['niliMameluke B.png', 'niliMameluke R.png'],
     'sicilians.png': ['niliserjeant Bv2.png', 'niliserjeant Rv2.png'],
     'slavs.png': ['niliBoyar B.png', 'niliBoyar R.png'],

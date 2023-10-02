@@ -392,6 +392,16 @@ div.stretchy-wrapper>div.stretchy-text {
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliOrganGun%20R.png")
 }
 
+#player-host > .player img[alt~="Romans"],
+#civgrid img[alt~="Romans"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliCenturion%20B.png")
+}
+#player-guest > .player img[alt~="Romans"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliCenturion%20R.png")
+}
+
 #player-host > .player img[alt~="Saracens"],
 #civgrid img[alt~="Saracens"]
 {
