@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         aoe2cm civ icon replacement
 // @namespace    http://mbergen.de/
-// @version      1.4.1
+// @version      1.5
 // @downloadURL  https://aoe2syntactic.github.io/civpick-ui/assets/src/aoe2cm_civ_replacement_TM.user.js
 // @updateURL    https://aoe2syntactic.github.io/civpick-ui/assets/src/aoe2cm_civ_replacement_TM.user.js
 // @description  Replaces Civ Icons in the AoE2 Captains Mode
