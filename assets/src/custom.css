@@ -12,6 +12,10 @@ body, html, footer.footer {
     background-color: transparent !important;
 }
 
+.civ-panel.pick.is-inline-block.has-value > .stretchy-background {
+    background: transparent !important;
+}
+
 .pick,
 .steal {
     height: 138px;
