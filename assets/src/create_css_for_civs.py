@@ -65,6 +65,10 @@ full_css = dedent("""\
             .box {
                 background-color: transparent !important;
             }
+                  
+            .civ-panel.pick.is-inline-block.has-value > .stretchy-background {
+                background: transparent !important;
+            }
 
             .pick,
             .steal {
@@ -110,6 +114,7 @@ full_css = dedent("""\
 prefix = "img"
 guest_prefix = "#player-guest > .player"
 host_prefix = "#player-host > .player"
+none_prefix = "#player-none > .player"
 grid_prefix = "#civgrid"
 
 for key, value in mapping.items():
@@ -118,7 +123,8 @@ for key, value in mapping.items():
 
     full_css += dedent(f"""
                 {host_prefix} {prefix}[alt~=\"{key.capitalize()}\"],
-                {grid_prefix} {prefix}[alt~=\"{key.capitalize()}\"]
+                {grid_prefix} {prefix}[alt~=\"{key.capitalize()}\"],
+                {none_prefix} {prefix}[alt~=\"{key.capitalize()}\"]
                 {{
                     content: url(\"{url_prefix+blue}\")
                 }}
