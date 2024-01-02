@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         aoe2cm civ icon replacement
 // @namespace    http://mbergen.de/
-// @version      1.5
+// @version      1.5.1
 // @downloadURL  https://aoe2syntactic.github.io/civpick-ui/assets/src/aoe2cm_civ_replacement_TM.user.js
 // @updateURL    https://aoe2syntactic.github.io/civpick-ui/assets/src/aoe2cm_civ_replacement_TM.user.js
 // @description  Replaces Civ Icons in the AoE2 Captains Mode
@@ -22,6 +22,7 @@
  * Any valid URL can be used for replacement images.
  */
 let mapping = {
+    'armenians.png': ['niliCompositeBowman B.png', 'niliCompositeBowman R.png'],
     'aztecs.png': ['niliJaguar B.png', 'niliJaguar R.png'],
     'berbers.png': ['niliCamelArcher B.png', 'niliCamelArcher R.png'],
     'bengalis.png': ['niliRatha B.png', 'niliRatha R.png'],

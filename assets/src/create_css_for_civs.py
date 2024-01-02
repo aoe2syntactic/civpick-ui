@@ -4,6 +4,7 @@ from textwrap import dedent
 url_prefix = 'https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/'
 
 mapping = {
+    'armenians': ['niliCompositeBowman B', 'niliCompositeBowman R'],
     'aztecs': ['niliJaguar B', 'niliJaguar R'],
     'berbers': ['niliCamelArcher B', 'niliCamelArcher R'],
     'bengalis': ['niliRatha B', 'niliRatha R'],

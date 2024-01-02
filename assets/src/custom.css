@@ -56,6 +56,17 @@ div.stretchy-wrapper>div.stretchy-text {
     padding-top: 0;
 }
 
+#player-host > .player img[alt~="Armenians"],
+#civgrid img[alt~="Armenians"],
+#player-none > .player img[alt~="Armenians"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliCompositeBowman%20B.png")
+}
+#player-guest > .player img[alt~="Armenians"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliCompositeBowman%20R.png")
+}
+
 #player-host > .player img[alt~="Aztecs"],
 #civgrid img[alt~="Aztecs"],
 #player-none > .player img[alt~="Aztecs"]
