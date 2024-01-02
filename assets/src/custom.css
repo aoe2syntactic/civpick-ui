@@ -232,6 +232,17 @@ div.stretchy-wrapper>div.stretchy-text {
     content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliAxeman%20R.png")
 }
 
+#player-host > .player img[alt~="Georgians"],
+#civgrid img[alt~="Georgians"],
+#player-none > .player img[alt~="Georgians"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliMonaspa%20B.png")
+}
+#player-guest > .player img[alt~="Georgians"]
+{
+    content: url("https://aoe2syntactic.github.io/civpick-ui/assets/images/civs/niliMonaspa%20R.png")
+}
+
 #player-host > .player img[alt~="Goths"],
 #civgrid img[alt~="Goths"],
 #player-none > .player img[alt~="Goths"]
